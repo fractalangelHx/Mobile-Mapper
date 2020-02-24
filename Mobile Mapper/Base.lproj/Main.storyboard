@@ -23,6 +23,10 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="barringtonAnnotation" destination="eLK-4s-uqg" id="6yD-qZ-MxW"/>
+                        <outlet property="mapView" destination="eLK-4s-uqg" id="vk0-pg-BIf"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
